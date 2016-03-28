@@ -1,4 +1,4 @@
-var pdiKitchen=require('../lib'),
+var pdiKitchen=require('../'),
     fs = require('fs');
 
 var myKjb1=new pdiKitchen.kitchen('/home/helios/Programms/data-integration/kitchen.sh',
