@@ -17,17 +17,17 @@ describe('Kitchen', function () {
         }).should.throw(/no such file or directory/);
     });
 
-    it('throw "Options must be specified"', function () {
-        (function(){
-            var myKitchen=  new pdiKitchen.kitchen('not_exits');
-        }).should.throw(/Options must be specified/);
-    });
-
-    it('throw "Options.file must be specified"', function () {
-        (function(){
-            var myKitchen=  new pdiKitchen.kitchen('not_exits',{});
-        }).should.throw(/Options.file must be specified/);
-    });
+    //it('throw "Options must be specified"', function () {
+    //    (function(){
+    //        var myKitchen=  new pdiKitchen.kitchen('not_exits');
+    //    }).should.throw(/Options must be specified/);
+    //});
+    //
+    //it('throw "Options.file must be specified"', function () {
+    //    (function(){
+    //        var myKitchen=  new pdiKitchen.kitchen('not_exits',{});
+    //    }).should.throw(/Options.file must be specified/);
+    //});
 
     it('throw "pathKitchen must be specified!"', function () {
         (function(){
